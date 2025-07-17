@@ -46,7 +46,7 @@ html,body{
 .image1{
     width:70%;
     margin-left:15%;
-    height: 70vh;
+    height: 60vh;
     margin-top: 2%;
 }
 .para5{
@@ -104,7 +104,7 @@ html,body{
 .image2{
     width:70%;
     margin-left:15%;
-    height: 70vh;
+    height: 60vh;
     margin-top: 4%;
 }
 .container2{
@@ -213,22 +213,25 @@ nav{
       display: none;
       z-index: 999;
     }
-
+    
     #showPopup:checked ~ .overlay,
     #showPopup:checked ~ .popup {
       display: block;
     }
-    label[for="showPopup"].close {
+    label[for="showPopup"].come {
       display: inline-block;
       margin-top: 15px;
       color: #fff;
       background: #f44336;
-      padding: 10px 15px;
+      padding: 10px 20px;
       border-radius: 4px;
       cursor: pointer;
     } 
-    button{
-        padding:5px 10px;
+    input{
+        border: 1px solid black;
+        padding:10px 15px;
     }
+
+    
 
 
